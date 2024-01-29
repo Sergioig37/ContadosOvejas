@@ -17,6 +17,7 @@ export const App = () => {
       <div className="wrapper">
         <h4 className="counter">{listaOvejas.length}</h4>
         <button className="button" onClick={addOveja}>Añadir oveja</button>
+        <br />
         <SheepList ovejas={listaOvejas} />
       </div>
     </>

@@ -12,7 +12,7 @@ export const SheepList = ({ovejas}) => {
       {ovejas.map((oveja, index) => {
         {/**C*/}
         return <div key={index}>
-            <img src={oveja} alt="" />
+            <img src={oveja} className="sheep__img" alt="" />
         </div>;
       })}
     </>
